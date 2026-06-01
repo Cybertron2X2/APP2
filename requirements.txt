@@ -1,26 +1,19 @@
-```txt
-# ============================================================
-# requirements.txt — Koumankan Dioula AI
-# Version Render/FastAPI (texte uniquement)
-# ============================================================
-
-# --- Dataset / Data ---
+```txt id="req1"
 datasets>=2.18.0
 pandas>=2.2.0
 numpy>=1.26.0
 
-# --- OpenRouter / Mistral ---
 requests>=2.31.0
 httpx>=0.27.0
 openai>=1.30.0
 
-# --- FastAPI Server ---
+gTTS>=2.5.1
+pydub>=0.25.1
+
 fastapi>=0.111.0
 uvicorn[standard]>=0.29.0
 pydantic>=2.7.0
 python-multipart>=0.0.9
 python-dotenv>=1.0.0
 
-# --- Utils ---
 tqdm>=4.66.0
-```
