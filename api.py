@@ -125,10 +125,13 @@ app = FastAPI(
 )
 app.add_middleware(CORSMiddleware, allow_origins=["*"], allow_methods=["*"], allow_headers=["*"])
 
-@app.get("/", tags=["Interface"], include_in_schema=False)
+import os
+from fastapi.responses import FileResponse
+
+@app.get("/", include_in_schema=False)
 async def interface():
-    """Sert l'interface HTML directement depuis http://localhost:8000"""
-    return FileResponse("index.html")
+    file_path = os.path.join(os.path.dirname(__file__), "ai.html")
+    return FileResponse(file_path)
 
 # ============================================================
 # SANTÉ
