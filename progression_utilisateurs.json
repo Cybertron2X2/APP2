@@ -1,0 +1,171 @@
+{
+  "3ca85132": {
+    "user_id": "3ca85132",
+    "nom": "Apprenant",
+    "niveau": "debutant",
+    "score": 10,
+    "total_reponses": 1,
+    "total_reussites": 1,
+    "phrases_vues": [
+      0
+    ],
+    "phrases_maitrisees": [],
+    "phrases_ratees": [],
+    "phrases_details": {
+      "0": {
+        "nb_vu": 1,
+        "nb_reussi": 1,
+        "nb_rate": 0,
+        "derniere_vue": "2026-05-30T12:21:21.169975",
+        "maitrisee": false
+      }
+    },
+    "historique": [
+      {
+        "phrase_id": 0,
+        "reussi": true,
+        "contexte": "",
+        "timestamp": "2026-05-30T12:21:21.169999"
+      }
+    ],
+    "cree_le": "2026-05-30T12:20:18.415678",
+    "derniere_activite": "2026-05-30T12:21:21.170733"
+  },
+  "af32c622": {
+    "user_id": "af32c622",
+    "nom": "Apprenant",
+    "niveau": "debutant",
+    "score": 20,
+    "total_reponses": 3,
+    "total_reussites": 2,
+    "phrases_vues": [
+      9446,
+      4775,
+      9263
+    ],
+    "phrases_maitrisees": [],
+    "phrases_ratees": [
+      9263
+    ],
+    "phrases_details": {
+      "9446": {
+        "nb_vu": 1,
+        "nb_reussi": 1,
+        "nb_rate": 0,
+        "derniere_vue": "2026-05-30T17:36:01.052188",
+        "maitrisee": false
+      },
+      "4775": {
+        "nb_vu": 1,
+        "nb_reussi": 1,
+        "nb_rate": 0,
+        "derniere_vue": "2026-05-30T17:47:19.557659",
+        "maitrisee": false
+      },
+      "9263": {
+        "nb_vu": 1,
+        "nb_reussi": 0,
+        "nb_rate": 1,
+        "derniere_vue": "2026-05-30T17:47:36.787383",
+        "maitrisee": false
+      }
+    },
+    "historique": [
+      {
+        "phrase_id": 9446,
+        "reussi": true,
+        "contexte": "salutations",
+        "timestamp": "2026-05-30T17:36:01.052210"
+      },
+      {
+        "phrase_id": 4775,
+        "reussi": true,
+        "contexte": "nombres",
+        "timestamp": "2026-05-30T17:47:19.557670"
+      },
+      {
+        "phrase_id": 9263,
+        "reussi": false,
+        "contexte": "temps",
+        "timestamp": "2026-05-30T17:47:36.787399"
+      }
+    ],
+    "cree_le": "2026-05-30T17:29:27.474172",
+    "derniere_activite": "2026-05-30T17:47:36.787409"
+  },
+  "ed8d36a2": {
+    "user_id": "ed8d36a2",
+    "nom": "Apprenant",
+    "niveau": "debutant",
+    "score": 0,
+    "total_reponses": 0,
+    "total_reussites": 0,
+    "phrases_vues": [],
+    "phrases_maitrisees": [],
+    "phrases_ratees": [],
+    "phrases_details": {},
+    "historique": [],
+    "cree_le": "2026-05-30T23:07:14.017309",
+    "derniere_activite": "2026-05-30T23:07:14.017309"
+  },
+  "57974cbf": {
+    "user_id": "57974cbf",
+    "nom": "Apprenant",
+    "niveau": "debutant",
+    "score": 0,
+    "total_reponses": 0,
+    "total_reussites": 0,
+    "phrases_vues": [],
+    "phrases_maitrisees": [],
+    "phrases_ratees": [],
+    "phrases_details": {},
+    "historique": [],
+    "cree_le": "2026-05-31T12:16:39.514657",
+    "derniere_activite": "2026-05-31T12:16:39.514657"
+  },
+  "04492774": {
+    "user_id": "04492774",
+    "nom": "Apprenant",
+    "niveau": "debutant",
+    "score": 0,
+    "total_reponses": 0,
+    "total_reussites": 0,
+    "phrases_vues": [],
+    "phrases_maitrisees": [],
+    "phrases_ratees": [],
+    "phrases_details": {},
+    "historique": [],
+    "cree_le": "2026-05-31T14:37:27.800060",
+    "derniere_activite": "2026-05-31T14:37:27.800060"
+  },
+  "456016dd": {
+    "user_id": "456016dd",
+    "nom": "Apprenant",
+    "niveau": "debutant",
+    "score": 0,
+    "total_reponses": 0,
+    "total_reussites": 0,
+    "phrases_vues": [],
+    "phrases_maitrisees": [],
+    "phrases_ratees": [],
+    "phrases_details": {},
+    "historique": [],
+    "cree_le": "2026-05-31T23:18:58.195225",
+    "derniere_activite": "2026-05-31T23:18:58.195225"
+  },
+  "8024bf19": {
+    "user_id": "8024bf19",
+    "nom": "Apprenant",
+    "niveau": "debutant",
+    "score": 0,
+    "total_reponses": 0,
+    "total_reussites": 0,
+    "phrases_vues": [],
+    "phrases_maitrisees": [],
+    "phrases_ratees": [],
+    "phrases_details": {},
+    "historique": [],
+    "cree_le": "2026-06-01T08:46:01.677630",
+    "derniere_activite": "2026-06-01T08:46:01.677630"
+  }
+}

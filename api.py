@@ -382,4 +382,4 @@ if __name__ == "__main__":
     port = int(os.getenv("PORT", 8000))
     host = os.getenv("HOST", "0.0.0.0")
     print(f"\n🚀 http://{host}:{port}  |  docs: http://localhost:{port}/docs")
-    uvicorn.run("api:app", host=host, port=port, reload=False, log_level="info")
+    uvicorn.run("api:app", host=host, port=port, reload=True, log_level="info")

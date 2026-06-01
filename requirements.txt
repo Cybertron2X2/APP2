@@ -1,29 +1,26 @@
+```txt
 # ============================================================
 # requirements.txt — Koumankan Dioula AI
-# Stack : Mistral (OpenRouter) + gTTS + Pandas + FastAPI
+# Version Render/FastAPI (texte uniquement)
 # ============================================================
-# Installer : pip install -r requirements.txt
 
-# --- Dataset HuggingFace ---
+# --- Dataset / Data ---
 datasets>=2.18.0
 pandas>=2.2.0
 numpy>=1.26.0
 
-# --- API Mistral via OpenRouter ---
+# --- OpenRouter / Mistral ---
 requests>=2.31.0
 httpx>=0.27.0
-openai>=1.30.0          # Compatible OpenRouter (même format API)
+openai>=1.30.0
 
-# --- Synthèse vocale ---
-gTTS>=2.5.1             # Google Text-to-Speech
-pydub>=0.25.1           # Manipulation audio (optionnel)
-
-# --- Serveur API ---
+# --- FastAPI Server ---
 fastapi>=0.111.0
 uvicorn[standard]>=0.29.0
 pydantic>=2.7.0
 python-multipart>=0.0.9
 python-dotenv>=1.0.0
 
-# --- Utilitaires ---
+# --- Utils ---
 tqdm>=4.66.0
+```

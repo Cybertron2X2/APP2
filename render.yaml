@@ -1,0 +1,9 @@
+```yaml
+services:
+  - type: web
+    name: koumankan-api
+    runtime: python
+    plan: free
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn api:app --host 0.0.0.0 --port $PORT
+```
