@@ -11,7 +11,7 @@ from dataset_loader import DioulaDataset
 load_dotenv()
 
 OPENROUTER_API_KEY = os.getenv("OPENROUTER_API_KEY", "")
-MISTRAL_MODEL      = os.getenv("MISTRAL_MODEL", "mistralai/mistral-7b-instruct:free")
+MISTRAL_MODEL      = os.getenv("MISTRAL_MODEL", "MISTRAL_MODEL=google/gemma-2-9b-it:free")
 APP_NAME           = os.getenv("APP_NAME", "Koumankan-Dioula-AI")
 APP_URL            = os.getenv("APP_URL", "http://localhost:3000")
 TEMPERATURE        = 0.7
