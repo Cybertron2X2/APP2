@@ -1,8 +1,19 @@
-```gitignore
+# environnement virtuel
+.venv/
 venv/
+
+# cache python
 __pycache__/
 *.pyc
+
+# audio
+audio_cache/
+*.mp3
+*.wav
+
+# vscode
+.vscode/
+
+# fichiers temporaires
+*.log
 .env
-audio/
-temp/
-```
